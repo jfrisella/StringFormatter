@@ -419,12 +419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "264188ddf4d3586c80ea615f8ec8eaea34e652a1"
+                "reference": "1a1b63266c046e1856fd03812a4e0ac2b51aa2d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/264188ddf4d3586c80ea615f8ec8eaea34e652a1",
-                "reference": "264188ddf4d3586c80ea615f8ec8eaea34e652a1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1a1b63266c046e1856fd03812a4e0ac2b51aa2d5",
+                "reference": "1a1b63266c046e1856fd03812a4e0ac2b51aa2d5",
                 "shasum": ""
             },
             "require": {
@@ -483,7 +483,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-02-23 11:54:56"
+            "time": "2016-03-14 15:10:21"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -919,12 +919,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "801d412451594f7c9e7950a016a377798cf9dfa0"
+                "reference": "38aebd1045f91caaf25db0164e2703b21fb5359d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/801d412451594f7c9e7950a016a377798cf9dfa0",
-                "reference": "801d412451594f7c9e7950a016a377798cf9dfa0",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/38aebd1045f91caaf25db0164e2703b21fb5359d",
+                "reference": "38aebd1045f91caaf25db0164e2703b21fb5359d",
                 "shasum": ""
             },
             "require": {
@@ -960,7 +960,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-04 07:56:56"
+            "time": "2016-03-10 14:06:18"
         }
     ],
     "aliases": [],
