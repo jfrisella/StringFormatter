@@ -43,4 +43,16 @@ class StringFormatterTest extends PHPUnit_Framework_TestCase
         
     }
 
+    public function testClearWorks()
+    {
+        $f = \Formatter\StringFormatter::get();
+        $f->testCall("arguments")->clear();
+        $args = $f->getCalls();
+
+        $this->assertEquals(
+            array(),
+            $args
+        );
+    }
+
 }
