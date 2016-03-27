@@ -5,12 +5,12 @@
 
 include_once "../vendor/autoload.php";
 
-$str = "hello world!";
+$str = "hello|world something!";
 
 try{
 
     $f = \Formatter\StringFormatter::get();
-    echo $f->testCall()->format($str);
+    echo $f->ucwords()->lcfirst()->format($str);
 
     echo "<br>";
 

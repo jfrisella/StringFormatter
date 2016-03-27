@@ -59,13 +59,15 @@ class StringFormatter
         {
             try{
 
-                $str = call_user_func(
+                $str = call_user_func_array(
                     array(
                         SELF::NSCALL . $call->name, 
                         "format"
                     ), 
-                    $str,
-                    $call->args
+                    array_merge(
+                        array($str),
+                        $call->args
+                    )
                 );
 
             }catch(\Exception $e){
