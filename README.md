@@ -48,6 +48,6 @@ $f->myCustomChain()->format($someString);
 
 //You can also pass in other parameters at runtime
 //If you wanted to trim '|' instead of '%'
-$f->myEncoder(array("trim" => array("|")))->format($someString);
+$f->myCustomChain(array("trim" => array("|")))->format($someString);
 
 ```
