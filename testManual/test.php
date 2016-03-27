@@ -6,6 +6,8 @@
 include_once "../vendor/autoload.php";
 
 $str = "hello|world something!";
+echo rawurlencode("!@#$%^&*() hello world!");
+exit;
 
 try{
 
