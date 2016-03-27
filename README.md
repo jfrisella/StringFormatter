@@ -6,7 +6,7 @@ this is still in development, use at own risk
 
 #About Library
 this `Formatter\StringFormatter` class allows you to chain together standard PHP string functions in a more object oriented way.
-The class will also allows for [custom functions](#custom-functions) and [custom chains](#custom-chains).
+The class will also allow for [custom functions](#custom-functions) and [custom chains](#custom-chains).
 
 #Getting Started
 this will explain how to download and install.  Use Composer.
